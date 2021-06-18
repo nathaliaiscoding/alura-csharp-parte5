@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ByteBank1.Sistemas;
 
-namespace ByteBank1.Funcionarios
+namespace ByteBank.ByteBankModelos.Funcionarios
 {
     public class GerenteDeConta : FuncionarioAutenticavel
     {
-        public GerenteDeConta(string cpf) : base(4000, cpf) {
+        public GerenteDeConta(string cpf) : base(4000, cpf)
+        {
 
         }
 

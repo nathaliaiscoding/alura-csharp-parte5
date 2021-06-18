@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ByteBank1.Sistemas;
 
-namespace ByteBank1.Funcionarios
+namespace ByteBank.ByteBankModelos.Funcionarios
 {
     public class Diretor : FuncionarioAutenticavel
     {
-   
-        public Diretor(string cpf) : base(5000, cpf) {
+
+        public Diretor(string cpf) : base(5000, cpf)
+        {
 
         }
 

@@ -3,20 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ByteBank1.Funcionarios;
+using ByteBank.ByteBankModelos.Funcionarios;
 
-namespace ByteBank1
+
+namespace ByteBank.ByteBankModelos
 {
     class GerenciadorBonificacoes
     {
         private double _totalBonificacao;
-        public void Registrar(Funcionario funcionario) {
+        public void Registrar(Funcionario funcionario)
+        {
 
             _totalBonificacao += funcionario.GetBonificacao();
 
         }
-     
-        public double GetTotalBonificacao() {
+
+        public double GetTotalBonificacao()
+        {
             return _totalBonificacao;
         }
     }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ByteBankModelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ByteBankModelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ByteBankModelos.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ByteBankModelos/1.0.0": {
+      "type": "project",
+      "path": "../ByteBankModelos/ByteBankModelos.csproj",
+      "msbuildProject": "../ByteBankModelos/ByteBankModelos.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ByteBankModelos >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Nathalia\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Nathalia\\OneDrive\\Documents\\Programacao\\ALURA\\alura-csharp-parte5\\ByteBank\\ByteBankModelos\\ByteBankModelos.csproj": {
+              "projectPath": "C:\\Users\\Nathalia\\OneDrive\\Documents\\Programacao\\ALURA\\alura-csharp-parte5\\ByteBank\\ByteBankModelos\\ByteBankModelos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

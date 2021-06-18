@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBank1.Funcionarios
+namespace ByteBank.ByteBankModelos.Funcionarios
 {
     public class Auxiliar : Funcionario
     {
-        public Auxiliar(string cpf) : base(2000, cpf) {
+        public Auxiliar(string cpf) : base(2000, cpf)
+        {
 
         }
 
