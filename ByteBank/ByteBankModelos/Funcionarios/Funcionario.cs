@@ -13,7 +13,7 @@ namespace ByteBank.ByteBankModelos.Funcionarios
         public double Salario { get; protected set; }
         public static int TotalFuncionarios { get; private set; }
 
-        public abstract double GetBonificacao();
+        internal protected abstract double GetBonificacao();
         public abstract void AumentarSalario();
 
         public Funcionario(double salario, string cpf)

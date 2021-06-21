@@ -10,9 +10,11 @@ namespace ByteBank.ByteBankModelos.Funcionarios
     {
         public string Senha { get; set; }
 
+        private AutenticacaoHelper _autenticacaoHelper = new AutenticacaoHelper();
+        // código omitido
         public bool Autenticar(string senha)
         {
-            return this.Senha == senha;
+            return _autenticacaoHelper.CompararSenhar(Senha, senha);
         }
 
         public FuncionarioAutenticavel(double salario, string cpf) : base(salario, cpf)
