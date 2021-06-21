@@ -10,3 +10,4 @@ C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteB
 C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankModelos\obj\Debug\net5.0\ByteBankModelos.dll
 C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankModelos\obj\Debug\net5.0\ref\ByteBankModelos.dll
 C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankModelos\obj\Debug\net5.0\ByteBankModelos.pdb
+C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankModelos\bin\Debug\net5.0\ByteBankModelos.xml

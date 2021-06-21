@@ -17,3 +17,4 @@ C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteB
 C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankSistemaAgencia\obj\Debug\net5.0\ref\ByteBankSistemaAgencia.dll
 C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankSistemaAgencia\obj\Debug\net5.0\ByteBankSistemaAgencia.pdb
 C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankSistemaAgencia\obj\Debug\net5.0\ByteBankSistemaAgencia.genruntimeconfig.cache
+C:\Users\Nathalia\OneDrive\Documents\Programacao\ALURA\alura-csharp-parte5\ByteBank\ByteBankSistemaAgencia\bin\Debug\net5.0\ByteBankModelos.xml
